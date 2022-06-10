@@ -2,7 +2,13 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-// ------------   Time excessive result with O(n^3) time complexity --------------- // 
+/* 
+--------------------------------------------------------------   
+    Time excessive result with O(n^3) time complexity 
+    Runtime: 156 ms
+    Memory Usage: 52.8 MB
+    ----------------------------------------------------------
+*/ 
  var twoSum = function(numbers, target) {
     var pairs = [];
     for(let j = 0; j < numbers.length - 1; j++){

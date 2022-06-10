@@ -4,7 +4,13 @@
  * @return {number[]}
  */
 
-//* O(n^2) time complexity*//
+/* 
+--------------------------------------------------------------
+  Time Complexity: O(n^2) 
+  Runtime: 111 ms
+  Memory Usage: 42.5 MB
+--------------------------------------------------------------
+*/
 var twoSum = function(nums, target) {
       for(let i = 0; i < nums.length -1; i++){
         for(let j = i + 1; j < nums.length; j++){
@@ -16,7 +22,14 @@ var twoSum = function(nums, target) {
 };
 
 
-//* Time efficient hashmap way *//
+/* 
+----------------------------------------------------------
+  Time efficient hashmap way 
+  Runtime: 69 ms
+  Memory Usage: 43.1 MB  
+----------------------------------------------------------
+  */
+
  var twoSum = function(nums, target) {
     let storage = {};
       for(let i = 0; i < nums.length; i++){
